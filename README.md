@@ -1,8 +1,8 @@
 CREATE TABLE users (
   user_id INTEGER NOT NULL AUTO_INCREMENT,
-  name VARCHAR(128),
-  email VARCHAR(128),
-  password VARCHAR(128),
+  name VARCHAR(120),
+  email VARCHAR(120),
+  password VARCHAR(120),
   PRIMARY KEY(user_id)
 ) ENGINE = InnoDB DEFAULT CHARSET=utf8;
 
@@ -25,4 +25,4 @@ CREATE TABLE Profile (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO users (name,email,password)
-VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');
+VALUES ('pihu','pihu1416@gmail.com','pihu.0000');
